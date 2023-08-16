@@ -1,62 +1,40 @@
-\documentclass{article}
-\usepackage{geometry}
-\geometry{a4paper, margin=1.5in}
-\usepackage{enumitem}
+# Complex Number Operations Program
 
-\title{Complex Number Operations Program}
-\date{}
+This program is a C++ implementation of a complex number calculator. It allows you to perform various operations on complex numbers, including addition, multiplication, and calculating the absolute value. The program utilizes a class called `complex` to represent and manipulate complex numbers.
 
-\begin{document}
-\maketitle
+## Getting Started
 
-\section*{Getting Started}
 To use the program, follow these steps:
 
-\begin{enumerate}[label=\arabic*.]
-    \item Compile the code using a C++ compiler, such as \texttt{g++}, by running the command:
-    \begin{verbatim}
-    g++ -o complex_calculator complex_calculator.cpp
-    \end{verbatim}
+1. Compile the code using a C++ compiler, such as `g++`, by running the command:
 
-    \item Run the compiled executable:
-    \begin{verbatim}
-    ./complex_calculator
-    \end{verbatim}
+2. Run the compiled executable:
 
-    \item The program will prompt you to enter two complex numbers in the format \(a + bi\) or \(a - bi\), where \(a\) is the real part and \(b\) is the imaginary part.
+3. The program will prompt you to enter two complex numbers in the format `a + bi` or `a - bi`, where `a` is the real part and `b` is the imaginary part.
 
-    \item After entering the numbers, the program will provide a menu of operations you can perform on the entered complex numbers.
-\end{enumerate}
+4. After entering the numbers, the program will provide a menu of operations you can perform on the entered complex numbers.
 
-\section*{Available Operations}
-\begin{enumerate}[label=\arabic*.]
-    \item \textbf{Addition (1)}: Adds the two complex numbers together and displays the result.
-    \item \textbf{Multiplication (2)}: Multiplies the two complex numbers and displays the result.
-    \item \textbf{Absolute Value (3)}: Calculates the absolute value of each complex number and displays the results.
-    \item \textbf{Exit (4)}: Terminates the program.
-\end{enumerate}
+## Available Operations
 
-\section*{Example Usage}
+1. **Addition (1)**: Adds the two complex numbers together and displays the result.
+2. **Multiplication (2)**: Multiplies the two complex numbers and displays the result.
+3. **Absolute Value (3)**: Calculates the absolute value of each complex number and displays the results.
+4. **Exit (4)**: Terminates the program.
+
+## Example Usage
+
 Suppose you input the following complex numbers:
-\begin{verbatim}
-3 + 4i
-10 - 2i
-\end{verbatim}
+
 
 The program will show the menu and ask you to choose an operation. Let's say you choose option 1 for addition. The program will then display:
-\begin{verbatim}
-plus = 13 + 2i
-\end{verbatim}
+
 
 You will be prompted to continue or exit. If you choose to continue, you will be presented with the menu again to select another operation or exit.
 
-\section*{Note}
-\begin{itemize}
-    \item The program assumes that complex numbers are input in the format described above, and it handles both positive and negative real and imaginary parts.
-    \item The program uses a class called \texttt{complex} to organize and manipulate complex numbers.
-    \item The calculations in the program are performed using the basic arithmetic operations and the \texttt{sqrt} function from the \texttt{<cmath>} library.
-\end{itemize}
+## Note
+
+- The program assumes that complex numbers are input in the format described above, and it handles both positive and negative real and imaginary parts.
+- The program uses a class called `complex` to organize and manipulate complex numbers.
+- The calculations in the program are performed using the basic arithmetic operations and the `sqrt` function from the `<cmath>` library.
 
 Please ensure you have a C++ compiler installed to compile and run the code. If you encounter any issues or errors, make sure to review and debug the code accordingly.
-
-\end{document}
